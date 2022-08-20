@@ -1,0 +1,107 @@
+.searchbar{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cityname{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-size: 400%;
+    color: goldenrod;
+}
+
+.humidity{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%,-50%);   
+  font-size: 200%;
+  color: goldenrod;
+}
+
+.humidity_value{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%,-50%); 
+  font-size: 200%;
+  color: goldenrod;
+}
+
+.wind{
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  transform: translate(-50%,-50%);   
+  font-size: 200%;
+  color: goldenrod;
+}
+
+.wind_value{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%,-50%); 
+  font-size: 200%;
+  color: goldenrod;
+}
+
+.temperature{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  font-size: 200%;
+  color: goldenrod;
+}
+
+.emoji{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  font-size: 275%;
+  color: goldenrod;
+}
+
+/* ================================= Media QUERIES (small Devices) ==========================*/
+@media screen and (max-width: 700px){
+.temperature{
+  top: 35%;
+  font-size: 100%;
+}
+
+.cityname{
+  font-size: 200%;
+  top: 30%
+}
+
+.wind{
+  font-size: 100%;
+  left:80%;
+}
+
+.wind_value{
+  font-size: 100%;
+  left:80%;
+}
+
+.humidity{
+  font-size: 100%;
+  left:20%;
+}
+
+.humidity_value{
+  font-size: 100%;
+  left:20%;
+}
+
+.emoji{
+  font-size: 100%;
+}
+
+}

@@ -1,0 +1,30 @@
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 350%;
+  color: whitesmoke;
+    
+  }
+  
+  body,
+  html {
+    height: 100%;
+  }
+
+@media screen and (max-width: 600px){
+  .title{
+    top:15%;
+    font-size: 165%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .title{
+    top:15%;
+    font-size: 165%;
+  }
+}
+
