@@ -68,6 +68,10 @@
   color: goldenrod;
 }
 
+img {
+ width: 90px;
+}
+
 /* ================================= Media QUERIES (small Devices) ==========================*/
 @media screen and (max-width: 700px){
 .temperature{
