@@ -42,8 +42,7 @@ const SideApp = () => {
     {data.main ? <p>{data.main.humidity}%</p> : null}
     </div>
     <div className='emoji'>
-    <img id="cc" src=""  />
-    {data.weather ? <p> {data.weather[0].main} </p> : null}
+    {data.weather ? <img src={require(`../../assets/${data.weather[0].main}.png`)} ></img> : null}
       </div>
     <div className='cityname'>
     {data.name}
