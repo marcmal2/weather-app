@@ -61,11 +61,18 @@
 
 .emoji{
   position: absolute;
-  top: 60%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%,-50%); 
-  font-size: 275%;
+  font-size: 175%;
   color: goldenrod;
+}
+
+.desc{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
 }
 
 img {
