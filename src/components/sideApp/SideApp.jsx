@@ -42,7 +42,8 @@ const SideApp = () => {
     {data.main ? <p>{data.main.humidity}%</p> : null}
     </div>
     <div className='emoji'>
-    {data.weather ? <img src={require(`../../assets/${data.weather[0].main}.png`)} ></img> : null}
+    {data.weather ? <img src={require(`../../assets/${data.weather[0].icon}.png`)} alt="hello"></img> : null}
+    {data.weather ? <p className='desc' > {data.weather[0].main.toLowerCase()} </p> : null}
       </div>
     <div className='cityname'>
     {data.name}
